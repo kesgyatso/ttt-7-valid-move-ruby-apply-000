@@ -8,7 +8,7 @@ def valid_move?(board, position)
   
   if board[position]=="X" || board[position]== "O" || board[position]==nil
     return false
-  elsif board[position]=="X" || board[position]=="O"
+  elsif board[position]=="" || board[position]==" "
     return true
   end 
 
